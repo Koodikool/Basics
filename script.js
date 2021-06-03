@@ -150,3 +150,11 @@ console.log('mixOfTypes', mixOfTypes)
 
 var nameOfFirstStudent = mixOfTypes.people[0].name
 console.log('nameOfFirstStudent', nameOfFirstStudent)
+
+function sumThreeNumbers(a, b, c) {
+    return a + b + c
+}
+const sumOfThree = sumThreeNumbers(1, 7, 4)
+const sumOfThreeAgain = sumThreeNumbers(98, 8, 11)
+console.log('sumOfThree', sumOfThree)
+console.log('sumOfThreeAgain', sumOfThreeAgain)
