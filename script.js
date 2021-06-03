@@ -87,3 +87,6 @@ if (yourAge === 18) {
 const firstArray = [1, 2, "kolm", 4]
 firstArray.push(5)
 console.log(firstArray)
+
+const cutHalf = firstArray.slice(2)
+console.log(cutHalf)
