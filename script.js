@@ -114,3 +114,7 @@ console.log('sumNumbers', sumNumbers)
 var someString = "My phone is from Apple, made in China."
 var stringArray = someString.split(" ")
 console.log('stringArray', stringArray)
+
+stringArray[4] = "Samsung"
+var newString = stringArray.join("_")
+console.log('newString', newString)
