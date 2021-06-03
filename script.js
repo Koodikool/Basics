@@ -121,3 +121,6 @@ console.log('newString', newString)
 
 var myPhone = {company: "Apple", product: "iPhone", year: 2015}
 console.log(myPhone)
+
+console.log(myPhone.product)
+console.log(myPhone["product"])
