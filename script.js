@@ -99,3 +99,7 @@ console.log(secondItem)
 const deepArray = [1, 2, [3, 4], 6, 7]
 deepArray[2].push(5)
 console.log(deepArray)
+
+const sortMe = [7, "Banaan", 3, "Apelsin", 5]
+sortMe.sort()
+console.log('sortMe', sortMe)
