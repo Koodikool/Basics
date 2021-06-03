@@ -36,3 +36,6 @@ console.log(stringsTogetherWithSpace)
 
 var addStringAndNumber = 1 + 1 + " vs. " + 1 + 1
 console.log(addStringAndNumber)
+
+var singleQuotes = 'Here we use single quotes, it makes no difference'
+console.log(singleQuotes)
