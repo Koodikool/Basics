@@ -50,3 +50,5 @@ var firstBoolean = true
 var secondBoolean = false
 var sumOfBooleans = firstBoolean + secondBoolean
 console.log(sumOfBooleans)
+
+console.log("Log can take multiple arguments:", firstBoolean, secondBoolean, sumOfBooleans)
