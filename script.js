@@ -95,3 +95,7 @@ var firstItem = firstArray[0]
 var secondItem = firstArray[1]
 console.log(firstItem)
 console.log(secondItem)
+
+const deepArray = [1, 2, [3, 4], 6, 7]
+deepArray[2].push(5)
+console.log(deepArray)
