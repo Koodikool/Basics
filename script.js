@@ -110,3 +110,7 @@ for (const n of numbers) {
     sumNumbers += n
 }
 console.log('sumNumbers', sumNumbers)
+
+var someString = "My phone is from Apple, made in China."
+var stringArray = someString.split(" ")
+console.log('stringArray', stringArray)
