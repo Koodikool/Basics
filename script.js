@@ -42,3 +42,6 @@ console.log(singleQuotes)
 
 var letterCount = singleQuotes.length
 console.log(letterCount)
+
+var findInString = singleQuotes.includes("it makes")
+console.log(findInString)
