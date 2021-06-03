@@ -64,3 +64,12 @@ console.log("totallySure", totallySure)
 
 var sumOfMoreBooleans = firstBoolean + firstBoolean + firstBoolean
 console.log(sumOfMoreBooleans)
+
+var yourAge = 10
+var accessAllowed = null
+if (yourAge < 18) {
+    accessAllowed = false
+} else {
+    accessAllowed = true
+}
+console.log('accessAllowed', accessAllowed)
