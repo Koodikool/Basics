@@ -16,3 +16,8 @@ console.log(sumOfOnes)
 
 var computerAccuracy = 2.0 - 1.1
 console.log(computerAccuracy)
+
+var bankBalanceCents = 200
+var burgerPrice = 160
+var centsLeftOver = bankBalanceCents - burgerPrice
+console.log(centsLeftOver)
