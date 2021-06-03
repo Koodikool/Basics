@@ -7,3 +7,9 @@ console.log(answer)
 
 var simpleMath = 8 / (5 * 3)
 console.log(simpleMath)
+
+var sumOfOnes = 1
+sumOfOnes = sumOfOnes + 1
+sumOfOnes += 1
+sumOfOnes++
+console.log(sumOfOnes)
