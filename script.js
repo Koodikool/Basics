@@ -147,3 +147,6 @@ var mixOfTypes = {
     ]
 }
 console.log('mixOfTypes', mixOfTypes)
+
+var nameOfFirstStudent = mixOfTypes.people[0].name
+console.log('nameOfFirstStudent', nameOfFirstStudent)
