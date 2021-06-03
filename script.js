@@ -39,3 +39,6 @@ console.log(addStringAndNumber)
 
 var singleQuotes = 'Here we use single quotes, it makes no difference'
 console.log(singleQuotes)
+
+var letterCount = singleQuotes.length
+console.log(letterCount)
