@@ -61,3 +61,6 @@ var notSure = true && true
 console.log("notSure", notSure)
 var totallySure = false || false
 console.log("totallySure", totallySure)
+
+var sumOfMoreBooleans = firstBoolean + firstBoolean + firstBoolean
+console.log(sumOfMoreBooleans)
