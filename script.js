@@ -127,3 +127,23 @@ console.log(myPhone["product"])
 
 myPhone.color = "white"
 console.log(myPhone)
+
+var mixOfTypes = {
+    class: 11,
+    subjects: ["Math", "Estonian", "History"],
+    people: [
+        {
+            name: "Alice",
+            age: 11
+        },
+        {
+            name: "Bob",
+            age: 25
+        },
+        {
+            name: "Cindy",
+            age: 38
+        }
+    ]
+}
+console.log('mixOfTypes', mixOfTypes)
