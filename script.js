@@ -30,3 +30,6 @@ var firstString = "A string is always surrounded by quotes."
 var secondString = "Strings can also be added to eachother."
 var stringsTogether = firstString + secondString
 console.log(stringsTogether)
+
+var stringsTogetherWithSpace = firstString + " " + secondString
+console.log(stringsTogetherWithSpace)
