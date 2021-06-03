@@ -103,3 +103,10 @@ console.log(deepArray)
 const sortMe = [7, "Banaan", 3, "Apelsin", 5]
 sortMe.sort()
 console.log('sortMe', sortMe)
+
+var numbers = [543, 12, 9, 451, 43]
+var sumNumbers = 0
+for (const n of numbers) {
+    sumNumbers += n
+}
+console.log('sumNumbers', sumNumbers)
