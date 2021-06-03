@@ -25,3 +25,8 @@ console.log(centsLeftOver)
 var x = undefined
 var y = x * 2
 console.log(y)
+
+var firstString = "A string is always surrounded by quotes."
+var secondString = "Strings can also be added to eachother."
+var stringsTogether = firstString + secondString
+console.log(stringsTogether)
