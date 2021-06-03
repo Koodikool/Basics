@@ -73,3 +73,9 @@ if (yourAge < 18) {
     accessAllowed = true
 }
 console.log('accessAllowed', accessAllowed)
+
+if (accessAllowed) {
+    console.log('Welcome inside.')
+} else {
+    console.log("You're too young for this place")
+}
