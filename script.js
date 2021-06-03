@@ -21,3 +21,7 @@ var bankBalanceCents = 200
 var burgerPrice = 160
 var centsLeftOver = bankBalanceCents - burgerPrice
 console.log(centsLeftOver)
+
+var x = undefined
+var y = x * 2
+console.log(y)
