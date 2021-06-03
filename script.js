@@ -83,3 +83,7 @@ if (accessAllowed) {
 if (yourAge === 18) {
     console.log('Congrats, now get to work!')
 }
+
+const firstArray = [1, 2, "kolm", 4]
+firstArray.push(5)
+console.log(firstArray)
