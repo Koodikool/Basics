@@ -13,3 +13,6 @@ sumOfOnes = sumOfOnes + 1
 sumOfOnes += 1
 sumOfOnes++
 console.log(sumOfOnes)
+
+var computerAccuracy = 2.0 - 1.1
+console.log(computerAccuracy)
