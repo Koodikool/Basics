@@ -124,3 +124,6 @@ console.log(myPhone)
 
 console.log(myPhone.product)
 console.log(myPhone["product"])
+
+myPhone.color = "white"
+console.log(myPhone)
