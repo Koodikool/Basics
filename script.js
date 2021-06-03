@@ -79,3 +79,7 @@ if (accessAllowed) {
 } else {
     console.log("You're too young for this place")
 }
+
+if (yourAge === 18) {
+    console.log('Congrats, now get to work!')
+}
