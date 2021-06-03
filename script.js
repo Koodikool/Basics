@@ -45,3 +45,8 @@ console.log(letterCount)
 
 var findInString = singleQuotes.includes("it makes")
 console.log(findInString)
+
+var firstBoolean = true
+var secondBoolean = false
+var sumOfBooleans = firstBoolean + secondBoolean
+console.log(sumOfBooleans)
