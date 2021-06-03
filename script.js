@@ -158,3 +158,15 @@ const sumOfThree = sumThreeNumbers(1, 7, 4)
 const sumOfThreeAgain = sumThreeNumbers(98, 8, 11)
 console.log('sumOfThree', sumOfThree)
 console.log('sumOfThreeAgain', sumOfThreeAgain)
+
+function makeSentence(arrayOfWords) {
+    var sum = ""
+    for (const str of arrayOfWords) {
+        sum += str + " "
+    }
+    return sum
+}
+var words1 = ["Show", "us", "what", "you", "got!"]
+var words2 = ["Harry", "Mack", "x", "Marc", "Rebillet"]
+console.log(makeSentence(words1))
+console.log(makeSentence(words2))
