@@ -90,3 +90,8 @@ console.log(firstArray)
 
 const cutHalf = firstArray.slice(2)
 console.log(cutHalf)
+
+var firstItem = firstArray[0]
+var secondItem = firstArray[1]
+console.log(firstItem)
+console.log(secondItem)
