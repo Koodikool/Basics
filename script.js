@@ -33,3 +33,6 @@ console.log(stringsTogether)
 
 var stringsTogetherWithSpace = firstString + " " + secondString
 console.log(stringsTogetherWithSpace)
+
+var addStringAndNumber = 1 + 1 + " vs. " + 1 + 1
+console.log(addStringAndNumber)
