@@ -52,3 +52,12 @@ var sumOfBooleans = firstBoolean + secondBoolean
 console.log(sumOfBooleans)
 
 console.log("Log can take multiple arguments:", firstBoolean, secondBoolean, sumOfBooleans)
+
+var soTrue = false || true
+console.log("soTrue", soTrue)
+var notTrue = false && true
+console.log("notTrue", notTrue)
+var notSure = true && true
+console.log("notSure", notSure)
+var totallySure = false || false
+console.log("totallySure", totallySure)
